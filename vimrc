@@ -2,7 +2,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 call pathogen#infect()
 call pathogen#runtime_append_all_bundles()
-all pathogen#helptags()
+call pathogen#helptags()
 set nocp
 set nobk
 set ffs=unix,dos,mac
