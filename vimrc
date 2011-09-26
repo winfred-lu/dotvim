@@ -37,10 +37,9 @@ set t_vb=
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable
 set bg=dark
-colorscheme desert
+"colorscheme desert
 "colorscheme desert256
-"colorscheme lucius
-"colorscheme wf256
+colorscheme lucius
 set t_Co=256
 
 set hls
