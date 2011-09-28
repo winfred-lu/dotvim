@@ -16,3 +16,6 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/Lucius"]
+	path = bundle/Lucius
+	url = git://github.com/winfred-lu/Lucius.git
