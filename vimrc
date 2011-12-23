@@ -78,7 +78,7 @@ imap <Down> <C-o>gj
 
 imap jj <Esc>
 nmap <leader>h :let &hlsearch = !&hlsearch<CR>
-nmap <leader>bb :e#<CR> 
+nmap <leader>bb :e#<CR>
 "nmap <leader>n :echo "strlen(".expand("<cword>").")=".strlen(expand("<cword>"))<CR>
 nmap <leader>s :ConqueTerm bash<cr>
 "nmap <leader>t :call <SID>ToggleCsto()<CR>
@@ -102,7 +102,7 @@ let g:bufExplorerShowRelativePath=1
 let g:bufExplorerSplitOutPathName=0
 let g:DirDiffExcludes="CVS,.*cmd,*.o"
 let g:DirDiffIgnore = "Id:,Revision:,Date:"
-let g:DirDiffAddArgs = "-w" 
+let g:DirDiffAddArgs = "-w"
 "let g:ConqueTerm_FastMode = 1
 "let g:ConqueTerm_Color = 1
 " }}}
