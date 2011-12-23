@@ -19,3 +19,6 @@
 [submodule "bundle/Lucius"]
 	path = bundle/Lucius
 	url = git://github.com/winfred-lu/Lucius.git
+[submodule "bundle/snipMate"]
+	path = bundle/snipMate
+	url = git://github.com/vim-scripts/snipMate.git
