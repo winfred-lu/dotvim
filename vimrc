@@ -76,7 +76,7 @@ map <Down> gj
 map j gj
 imap <Down> <C-o>gj
 
-imap jj <Esc>
+imap kj <Esc>
 nmap <leader>h :let &hlsearch = !&hlsearch<CR>
 nmap <leader>bb :e#<CR>
 "nmap <leader>n :echo "strlen(".expand("<cword>").")=".strlen(expand("<cword>"))<CR>
