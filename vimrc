@@ -31,6 +31,7 @@ set magic
 set noerrorbells
 set novisualbell
 set t_vb=
+set t_ti= t_te=
 " }}}
 
 " Theme, Colors, Formatting, Layout {{{
