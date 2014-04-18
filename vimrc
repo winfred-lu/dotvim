@@ -44,6 +44,7 @@ colorscheme lucius
 set t_Co=256
 
 set hls
+set is
 set wrap
 set ai
 set si
