@@ -1,8 +1,5 @@
 " General {{{
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call pathogen#infect()
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 set nocp
 set nobk
 set ffs=unix,dos,mac
@@ -38,9 +35,8 @@ set t_ti= t_te=
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable
 set bg=dark
-"colorscheme desert
-"colorscheme desert256
-colorscheme lucius
+colorscheme desert
+"colorscheme lucius
 set t_Co=256
 
 set hls
