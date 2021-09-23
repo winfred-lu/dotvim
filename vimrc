@@ -10,6 +10,7 @@ Plugin 'jlanzarotta/bufexplorer'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'will133/vim-dirdiff'
 Plugin 'jonathanfilip/vim-lucius'
+Plugin 'yegappan/taglist'
 call vundle#end()
 filetype plugin indent on
 " }}}
