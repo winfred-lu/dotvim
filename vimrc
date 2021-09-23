@@ -1,13 +1,25 @@
+" Vundle {{{
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'jlanzarotta/bufexplorer'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'will133/vim-dirdiff'
+Plugin 'jonathanfilip/vim-lucius'
+call vundle#end()
+filetype plugin indent on
+" }}}
+
 " General {{{
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocp
 set nobk
 set ffs=unix,dos,mac
 set history=500
-
-filetype on
-filetype plugin on
-filetype indent on
 
 let mapleader = ","
 let g:mapleader = ","
@@ -35,8 +47,11 @@ set t_ti= t_te=
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable
 set bg=dark
-colorscheme desert
-"colorscheme lucius
+"colorscheme desert
+let g:lucius_no_term_bg=1
+let g:lucius_contrast='low'
+colorscheme lucius
+
 set t_Co=256
 
 set hls

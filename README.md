@@ -1,18 +1,16 @@
 Vim Envionment
 =============
+	Manage plugins with Vundle.
 
 Installation
 -----------
 
-	$ git clone git://github.com/winfred-lu/dotvim.git ~/.vim
+	$ git clone https://github.com/winfred-lu/dotvim.git ~/.vim
+	$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	$ ln -sf ~/.vim/vimrc ~/.vimrc
-	$ cd ~/.vim
-	$ git submodule init
-	$ git submodule update
-	$ mkdir -p autoload; cd autoload
-	$ ln -s ../bundle/pathogen/autoload/pathogen.vim
 
 Usage
 -----------
 
-	$ vim
+	$ vim +PluginInstall +qall
+
