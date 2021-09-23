@@ -47,10 +47,13 @@ set t_ti= t_te=
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax enable
 set bg=dark
-"colorscheme desert
-let g:lucius_no_term_bg=1
-let g:lucius_contrast='low'
-colorscheme lucius
+try
+  let g:lucius_no_term_bg=1
+  let g:lucius_contrast='low'
+  colorscheme lucius
+catch /^Vim\%((\a\+)\)\=:E185/
+  colorscheme desert
+endtry
 
 set t_Co=256
 
