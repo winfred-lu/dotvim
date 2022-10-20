@@ -2,7 +2,11 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
+if has("win32") || has("win64")
+  set rtp+=~/_vim/bundle/Vundle.vim
+else
+  set rtp+=~/.vim/bundle/Vundle.vim
+endif
 
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
