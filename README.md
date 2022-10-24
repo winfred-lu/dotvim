@@ -14,5 +14,5 @@ Installation
 Usage
 -----------
 
-	$ vim +PluginInstall +qall
+	$ vim -E -s -u ~/.vimrc +PlugInstall +qall
 
