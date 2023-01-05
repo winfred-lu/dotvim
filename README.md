@@ -1,6 +1,7 @@
 Vim Envionment
 =============
-	Manage plugins with Vundle.
+
+Vim configurations with plugins managed by Vundle.
 
 Installation
 -----------
@@ -13,18 +14,18 @@ Installation
 
 for gvim
 
-	> cd %userprofile%
-	> git clone ...
-	> copy .vim\vimrc _vimrc
+	cd %userprofile%
+	git clone ...
+	copy .vim\vimrc _vimrc
 
 for neovim
 
-	> copy .vim\vimrc AppData\Local\nvim\init.vim
+	copy .vim\vimrc AppData\Local\nvim\init.vim
 
 Usage
 -----------
 
 	vim -E -s -u ~/.vimrc +PluginInstall +qall
 
-Note. .vimrc would be the path to rc file accordinly
+Note. *~/.vimrc* would be the path to rc file accordinly
 
