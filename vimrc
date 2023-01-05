@@ -3,7 +3,11 @@
 set nocompatible
 filetype off
 if has("win32") || has("win64")
-  set rtp+=~/_vim/bundle/Vundle.vim
+  if has("nvim")
+    set rtp+=~/AppData/Local/nvim/bundle/Vundle.vim
+  else
+    set rtp+=~/.vim/bundle/Vundle.vim
+  endif
 else
   set rtp+=~/.vim/bundle/Vundle.vim
 endif
