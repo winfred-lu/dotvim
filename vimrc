@@ -19,6 +19,7 @@ Plugin 'easymotion/vim-easymotion'
 Plugin 'will133/vim-dirdiff'
 Plugin 'jonathanfilip/vim-lucius'
 Plugin 'yegappan/taglist'
+Plugin 'romainl/Vim-cool'
 call vundle#end()
 filetype plugin indent on
 " }}}
@@ -45,6 +46,7 @@ exe 'set ruf=%'. halfcols .'(%f\ %m%=%l,%c%V\ %P%)'
 set backspace=2
 "set so=5
 set magic
+
 
 set noerrorbells
 set novisualbell
@@ -130,6 +132,7 @@ let g:DirDiffIgnore = "Id:,Revision:,Date:"
 let g:DirDiffAddArgs = "-w"
 "let g:ConqueTerm_FastMode = 1
 "let g:ConqueTerm_Color = 1
+let g:cool_total_matches = 1
 " }}}
 
 " Ctags, Cscope {{{
