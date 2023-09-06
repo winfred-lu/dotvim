@@ -215,7 +215,7 @@ fu! s:ToggleQf()
   cope
 endf
 
-fu! ToggleHex()
+fu! s:ToggleHex()
   " hex mode should be considered a read-only operation
   " save values for modified and read-only for restoration later,
   " and clear the read-only flag for now
