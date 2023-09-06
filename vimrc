@@ -137,7 +137,10 @@ let g:cool_total_matches = 1
 
 " Ctags, Cscope {{{
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set tags=tags;
+let tagfiles = glob("`find ~/.vim/bundle/ -name tags -print`")
+let &tags = substitute(tagfiles, "\n", ",", "g")
+
+set tags+=./tags,./TAGS,tags;~,TAGS:~
 
 if glob("~/.vim/doc/*") != ""
   helptags ~/.vim/doc
