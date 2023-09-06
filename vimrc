@@ -113,6 +113,7 @@ nmap <leader>s :ConqueTerm bash<cr>
 nmap <leader>t :FufTag<CR>
 nmap <leader>f :call <SID>ToggleQf()<CR>
 nmap <leader>u :call <SID>ToggleHex()<CR>
+nmap <leader>w <Plug>(easymotion-bd-W)
 nmap <leader>x :call NERDComment(0, "toggle")<CR>
 nmap <leader>y :YRShow<CR>
 nmap <F8> :TlistToggle<CR>
