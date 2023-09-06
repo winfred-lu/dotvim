@@ -132,8 +132,6 @@ let g:bufExplorerSplitOutPathName=0
 let g:DirDiffExcludes="CVS,.svn,.git,.*cmd,*.o"
 let g:DirDiffIgnore = "Id:,Revision:,Date:"
 let g:DirDiffAddArgs = "-w"
-"let g:ConqueTerm_FastMode = 1
-"let g:ConqueTerm_Color = 1
 let g:cool_total_matches = 1
 " }}}
 
