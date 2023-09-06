@@ -75,15 +75,28 @@ set wrap
 set ai
 set si
 set cin
-set ts=8
-set sts=8
-set sw=8
 set tw=80
-set noexpandtab
 set smarttab
 set fo=tcroqnl
 set cinoptions=:0,l1,t0,g0
 set listchars+=tab:^-
+
+set ts=8
+set sw=8
+set sts=0
+set noexpandtab
+
+fu! TabToggle()
+  if &expandtab
+    set sw=8
+    set sts=0
+    set noexpandtab
+  else
+    set sw=4
+    set sts=4
+    set expandtab
+  endif
+endfu
 " }}}
 
 " Files, Backups {{{
@@ -120,7 +133,7 @@ nmap <F8> :TlistToggle<CR>
 nmap <F9> :let &cul = !&cul<CR>
 set pt=<F10>
 nmap <F11> :let &list = !&list<CR>
-nmap <F12> :YRShow<CR>
+nmap <F12> mz:execute TabToggle()<CR>'z
 " }}}
 
 " Plugin Settings {{{
