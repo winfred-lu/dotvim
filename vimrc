@@ -30,6 +30,7 @@ set nocp
 set nobk
 set ffs=unix,dos,mac
 set history=500
+set iskeyword+=-
 
 let mapleader = ","
 let g:mapleader = ","
