@@ -255,7 +255,6 @@ endfu
 
 " Auto commands {{{
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-au BufWritePost ~/.vimrc source ~/.vimrc
 au BufRead *.[chxsS] nmap <C-]> :exe "tj ".expand("<cword>")<CR>
 au Syntax asm runtime! ~/.vim/syntax/gas.vim
 " }}}
