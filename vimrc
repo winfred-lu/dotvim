@@ -20,8 +20,10 @@ Plugin 'will133/vim-dirdiff'
 Plugin 'jonathanfilip/vim-lucius'
 Plugin 'yegappan/taglist'
 Plugin 'romainl/Vim-cool'
+Plugin 'junegunn/fzf.vim'
 call vundle#end()
 filetype plugin indent on
+source /usr/share/doc/fzf/examples/fzf.vim
 " }}}
 
 " General {{{
@@ -120,11 +122,12 @@ imap <Down> <C-o>gj
 imap kj <Esc>
 nmap <leader>h :let &hlsearch = !&hlsearch<CR>
 nmap <leader>bb :e#<CR>
+nmap <leader>f :FZF<CR>
 "nmap <leader>n :echo "strlen(".expand("<cword>").")=".strlen(expand("<cword>"))<CR>
 nmap <leader>s :ConqueTerm bash<cr>
 "nmap <leader>t :call <SID>ToggleCsto()<CR>
 nmap <leader>t :FufTag<CR>
-nmap <leader>f :call <SID>ToggleQf()<CR>
+nmap <leader>q :call <SID>ToggleQf()<CR>
 nmap <leader>u :call <SID>ToggleHex()<CR>
 nmap <leader>w <Plug>(easymotion-bd-W)
 nmap <leader>x :call NERDComment(0, "toggle")<CR>
